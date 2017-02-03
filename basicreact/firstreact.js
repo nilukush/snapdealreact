@@ -6,7 +6,7 @@ var CommentBox = React.createClass({
         return React.createElement(
             "div",
             { className: "commentBox" },
-            "Hello ",
+            "Hi ",
             this.props.message,
             "!!"
         );
